@@ -1,0 +1,48 @@
+server:
+  cluster_token:
+  adminlist:
+    -
+  gameplay: 
+    game_mode: endless
+    max_players: 10
+    pvp: true
+    pause_when_empty: true
+  network:
+    cluster_description:
+    cluster_name:
+    cluster_intention:
+    cluster_password:
+    tick_rate: 30
+  misc:
+    console_enabled: true
+  shard:
+    shard_enabled: true
+    bind_ip: "127.0.0.1"
+    master_ip: "127.0.0.1"
+    master_port: 10889
+    cluster_key:
+  steam:
+    steam_group_only: false
+    steam_group_id:
+master:
+  network:
+    server_port: 11000
+  shard:
+    is_master: true
+  steam:
+    master_server_port: 27018
+    authentication_port: 8768
+  account:
+    encode_user_path: true
+caves:
+  network:
+    server_port: 11001
+  shard:
+    is_master: false
+    name: "Caves"
+    id: 1109291329
+  steam:
+    master_server_port: 27019
+    authentication_port: 8769
+  account:
+    encode_user_path: true
